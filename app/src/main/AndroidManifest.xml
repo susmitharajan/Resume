@@ -2,6 +2,9 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.susmitharajan.resume">
 
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -21,6 +24,7 @@
         <activity android:name=".project"/>
         <activity android:name=".education"/>
         <activity android:name=".additional"/>
+        <activity android:name=".resume"/>
     </application>
 
 </manifest>

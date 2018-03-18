@@ -16,6 +16,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".personal"/>
+        <activity android:name=".work"/>
+        <activity android:name=".project"/>
+        <activity android:name=".education"/>
+        <activity android:name=".additional"/>
     </application>
 
 </manifest>
